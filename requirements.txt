@@ -7,13 +7,13 @@ flask-cors==4.0.0
 python-dotenv==1.0.0
 gunicorn==21.2.0
 
-# Supabase (Database & Auth)
-supabase==2.10.0
+# Supabase (Database & Auth) - Use latest with pinned dependencies
+supabase==2.12.0
+httpx==0.27.2
+httpcore==1.0.7
 
 # Computer Vision (Dyspraxia)
 opencv-python-headless==4.8.1.78
-# Use a mediapipe release that is available on PyPI for current Python/RHEL manylinux
-# Render build logs show newer 0.10.30+ releases; pin to a recent compatible one
 mediapipe==0.10.32
 numpy==1.26.2
 
@@ -39,6 +39,3 @@ requests==2.31.0
 # Development
 pytest==7.4.3
 pytest-cov==4.1.0
-
-
-

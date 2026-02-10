@@ -3,9 +3,9 @@
 
 # Core Framework
 flask==3.0.0
-flask-cors==4.0.0
+flask-cors==6.0.0
 python-dotenv==1.0.0
-gunicorn==21.2.0
+gunicorn==22.0.0
 
 # Supabase (Database & Auth)
 supabase==2.3.0
@@ -16,12 +16,12 @@ mediapipe==0.10.9
 numpy==1.26.2
 
 # NLP / Text Processing (Dyslexia)
-transformers==4.36.0
-torch==2.1.1
-sentencepiece==0.1.99
+transformers==4.53.0
+torch==2.8.0
+sentencepiece==0.2.1
 
 # Image Processing (Dysgraphia)
-pillow==10.1.0
+pillow==10.3.0
 
 # PDF Generation (Reports)
 reportlab==4.0.7
@@ -32,7 +32,7 @@ pypdf2==3.0.1
 
 # Utilities
 python-dateutil==2.8.2
-requests==2.31.0
+requests==2.32.4
 
 # Development
 pytest==7.4.3

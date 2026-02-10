@@ -23,7 +23,7 @@ torch==2.10.0
 sentencepiece==0.1.99
 
 # Image Processing (Dysgraphia)
-pillow==10.1.0
+pillow>=10.2.0
 
 # PDF Generation (Reports)
 reportlab==4.0.7
@@ -39,4 +39,5 @@ requests==2.31.0
 # Development
 pytest==7.4.3
 pytest-cov==4.1.0
+
 

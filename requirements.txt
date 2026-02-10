@@ -8,7 +8,7 @@ python-dotenv==1.0.0
 gunicorn==21.2.0
 
 # Supabase (Database & Auth)
-supabase==2.3.0
+supabase==2.10.0
 
 # Computer Vision (Dyspraxia)
 opencv-python-headless==4.8.1.78
@@ -39,5 +39,6 @@ requests==2.31.0
 # Development
 pytest==7.4.3
 pytest-cov==4.1.0
+
 
 
